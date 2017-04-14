@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button go = (Button) findViewById(R.id.go);
         final TextView tvResult = (TextView) findViewById(R.id.tv_result);
-        go.setOnClickListener(     new View.OnClickListener() {
+        go.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
